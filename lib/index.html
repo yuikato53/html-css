@@ -1,0 +1,105 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>はじめてのHTML</HTML></title>
+</head>
+
+
+<body>
+    <!-- あああ -->
+     <h1>見出し1</h1>
+     <h2>見出し2</h2>
+     <hr> 
+     <!-- 区切り線 -->
+     <!-- <h4>見出し4
+     </h4>をここで使うのは良くない例。見出しは１～順番に!     -->
+      <p>段落aaaaaaaaaaaaaaaaaaaaaa</p>
+      <p>段落bbbbbbbbbbbbbbbbbbbbbb</p>
+ 
+      改行aaa<br>改行bbb<br>改行ccc<br>
+
+      <pre>
+    スペース   や
+    改行が打ち込んだ見た目のまま表示されますが、あまり使いません。
+      </pre>
+
+      私は<strong>加藤</strong>です。これは太字にする目的ではなく、
+      <strong>強調</strong>のために使います。
+
+      
+      <h1>index.html</h1>
+      <a href="tmp2.html">tmp2</a><br>
+      <a href="https://www.yahoo.co.jp">yahoo</a><br>
+
+      <a href="../bin/usr/tmp.html">tmp</a>
+
+      
+      <!-- <img src="https://www.rakus-partners.co.jp/assets/img/home/img_business01.jpg"> -->
+
+      <ol>
+        <li>加藤</li>
+        <ul><li>KATO</li><li>YUI</li></ul>
+        <li>優衣</li>
+      </ol><br><br><br>
+
+      <table border="5">
+        <tbody>
+        <tr>
+          <th colspan="2">名前</th>
+          <!-- <th>かな</th> -->
+          <th rowspan="">生別</th>
+        </tr>
+        <tr>
+          <th >加藤</th>
+          <th>かとう</th>
+          <th>女性</th>
+        </tr>
+        <tr>
+          <th>田中</th>
+          <th>たなか</th>
+          <th>男性</th>
+        </tr>
+        </tbody>
+      </table><hr>
+
+      <form action="#"method="post" enctype="multipart/form-data">
+        名前：<input type="text" name ="name"><br>
+        <label>
+        パスワード：<input type="password" name="pass"><br></label>
+        <input type="radio" name="gender" value="male checked">男
+        <input type="radio" name="gender" value="female">女<br>
+        <input type="checkbox" name="triathlon" value="swim" checked>水泳
+        <input type="checkbox" name="triathlon" value="swim" >自転車<br>
+
+        <input type="file" name ="resume"><br>
+        <input type="hidden" name="employeeId" value="12345" >
+
+      </form>
+      <br><hr>
+
+     <textarea name="remarks" rows="5" cols="50(半角文字数)"></textarea><br>
+     
+     <select name ="hobby" multiple>
+      <!-- multipleつけると複数選択できる -->
+      <option value="book" selected>読書</option>
+      <option value="movie">映画鑑賞</option> 
+      <option value="karaoke">カラオケ</option>
+     </select><br>
+
+     <label for="nameField">名前:</label>
+     <input id="nameField"type="text" name="name"><br><br>
+     <button>送信</button><br>
+     <button type="reset">リセット</button>
+     <button type="button">ただのボタン</button>
+
+
+
+
+
+
+
+      
+</body>
+</html>
